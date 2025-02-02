@@ -115,6 +115,17 @@ god.MouseButton1Down:connect(function()
    workspace.CurrentCamera.FieldOfView = 60
 end)
  
-troll.Name = "troll"
 troll.Parent = main
-troll.BackgroundColor3 = Color3.fromRGB(0,
+troll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+troll.BackgroundTransparency = 0.300
+troll.BorderColor3 = Color3.fromRGB(255, 255, 255)
+troll.Position = UDim2.new(0.0566037744, 0, 0.705793739, 0)
+troll.Size = UDim2.new(0, 187, 0, 22)
+troll.Font = Enum.Font.Cartoon
+troll.Text = "Fov.40"
+troll.TextColor3 = Color3.fromRGB(255, 255, 255)
+troll.TextSize = 14.000
+troll.TextWrapped = true
+troll.MouseButton1Down:connect(function()
+   workspace.CurrentCamera.FieldOfView = 40
+end)
